@@ -19,21 +19,23 @@ body {
 }
 
 .header {
-  color: #333;
+  margin-bottom: 140px;
 
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
   font-size: 24px;
   line-height: 25px;
+
+  color: #333;
 }
 
 .aside {
-  width: 50%;
   font-family: 'Space Mono', monospace;
 }
 
 figure {
   width: 540px;
+  margin: 4px auto;
 }
 
 figure > img {
@@ -88,9 +90,10 @@ figure > img {
 
 @media all and (max-width: 599px) {
   body { padding: 20px 24px; }
+  .header { margin-bottom: 60px; }
   figure {
     width: 287px;
-    margin: 60px auto;
+    margin: 4px auto;
   }
   .aside > h1 {
     font-size: 48px;
@@ -103,10 +106,10 @@ figure > img {
 }
 
 @media all and (min-width: 600px) {
-  .aside { flex: 1 0 0; }
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
   .header  { order: 1; }
   .aside-1 { order: 2; }
   .aside-2 { order: 3; }

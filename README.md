@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/guilhermemotta/404-page-challenge/raw/main/images/2021-01-31_18-35-10.png)
 
 This is the repository for the 404 Page Challenge from devchallenges.io<br>
 You will find the demo [here](https://guilhermemotta.github.io/404-page-challenge/).
